@@ -35,6 +35,20 @@ test-cleanup: test-cache-cleanup reports-cleanup
 
 cleanup: dist-cleanup test-cleanup
 
+docs-html:
+	sphinx-build -b html docs docs/_build/html
+
+docs-pagefind: docs-html
+	@npx --yes pagefind --site docs/_build/html
+
+docs-manifest:
+	@cp docs/manifest.json docs/_build/html/manifest.json
+
+docs-publish: docs-html docs-pagefind docs-manifest
+
+docs-cleanup:
+	@rm -rf docs/_build
+
 docker-build:
 	@docker build --no-cache --build-arg OPENAPI_SPEC_VALIDATOR_VERSION=${VERSION} -t ${PROJECT_NAME}:${VERSION} .
 

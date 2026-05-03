@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 1,
+  "projectSlug": "openapi-spec-validator",
+  "displayName": "openapi-spec-validator",
+  "themeContractVersion": 1,
+  "latestStableVersion": "latest",
+  "routes": {
+    "publicProjectPath": "/openapi-spec-validator",
+    "latestDocsPath": "/openapi-spec-validator/docs/",
+    "versionedDocsPrefix": "/openapi-spec-validator/docs/"
+  },
+  "versions": [
+    {
+      "version": "latest",
+      "label": "latest",
+      "channel": "stable",
+      "isLatestStable": true,
+      "publicBasePath": "/openapi-spec-validator/docs/latest/",
+      "originUrl": "https://openapi-spec-validator.readthedocs.io/en/latest/",
+      "sitemapUrl": "https://openapi-spec-validator.readthedocs.io/en/latest/sitemap.xml",
+      "searchBundleUrl": "https://openapi-spec-validator.readthedocs.io/en/latest/pagefind/",
+      "publishedAt": "2026-05-03T00:00:00Z"
+    }
+  ]
+}
