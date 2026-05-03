@@ -3,7 +3,7 @@
   "projectSlug": "openapi-spec-validator",
   "displayName": "openapi-spec-validator",
   "themeContractVersion": 1,
-  "latestStableVersion": "0.7.2",
+  "latestStableVersion": "latest",
   "routes": {
     "publicProjectPath": "/openapi-spec-validator",
     "latestDocsPath": "/openapi-spec-validator/docs/",
@@ -11,26 +11,15 @@
   },
   "versions": [
     {
-      "version": "0.7.2",
-      "label": "0.7.2",
+      "version": "latest",
+      "label": "latest",
       "channel": "stable",
       "isLatestStable": true,
-      "publicBasePath": "/openapi-spec-validator/docs/0.7.2/",
-      "originUrl": "https://openapi-spec-validator.readthedocs.io/en/spike-pagefind-smoke/",
-      "sitemapUrl": "https://openapi-spec-validator.readthedocs.io/en/spike-pagefind-smoke/sitemap.xml",
-      "searchBundleUrl": "https://openapi-spec-validator.readthedocs.io/en/spike-pagefind-smoke/pagefind/",
-      "publishedAt": "2026-04-29T00:00:00Z"
-    },
-    {
-      "version": "next",
-      "label": "next",
-      "channel": "next",
-      "isLatestStable": false,
-      "publicBasePath": "/openapi-spec-validator/docs/next/",
-      "originUrl": "https://openapi-spec-validator.readthedocs.io/en/spike-pagefind-smoke/",
-      "sitemapUrl": "https://openapi-spec-validator.readthedocs.io/en/spike-pagefind-smoke/sitemap.xml",
-      "searchBundleUrl": "https://openapi-spec-validator.readthedocs.io/en/spike-pagefind-smoke/pagefind/",
-      "publishedAt": "2026-04-29T00:00:00Z"
+      "publicBasePath": "/openapi-spec-validator/docs/latest/",
+      "originUrl": "https://openapi-spec-validator.readthedocs.io/en/latest/",
+      "sitemapUrl": "https://openapi-spec-validator.readthedocs.io/en/latest/sitemap.xml",
+      "searchBundleUrl": "https://openapi-spec-validator.readthedocs.io/en/latest/pagefind/",
+      "publishedAt": "2026-05-03T00:00:00Z"
     }
   ]
 }

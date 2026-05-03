@@ -20,6 +20,7 @@ templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 html_theme = "sphinx_immaterial"
+html_baseurl = "https://python-openapi.org/openapi-spec-validator/docs/latest/"
 
 html_static_path = []
 
