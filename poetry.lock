@@ -1086,19 +1086,21 @@ files = [
 
 [[package]]
 name = "openapi-schema-validator"
-version = "0.8.0"
+version = "0.9.0"
 description = "OpenAPI schema validation for Python"
 optional = false
 python-versions = "<4.0.0,>=3.10.0"
 groups = ["main"]
 files = [
-    {file = "openapi_schema_validator-0.8.0-py3-none-any.whl", hash = "sha256:2769ccc58ce6e99a469cafdd7c6b660624a2b05c7052b85e56e6a6f0d7d58742"},
-    {file = "openapi_schema_validator-0.8.0.tar.gz", hash = "sha256:5828e9f11bddf8efbbfa50f178783572219fbf0d92f85561bda04ebf5bcefe17"},
+    {file = "openapi_schema_validator-0.9.0-py3-none-any.whl", hash = "sha256:faa3bbe7c3aa8ca2087ad83f709dc3b7d920283153a570c03e24ea182558aa25"},
+    {file = "openapi_schema_validator-0.9.0.tar.gz", hash = "sha256:b72db64315b89d21834cd3ffef37e3e6893bc876327be2d366e8424b1029afd3"},
 ]
 
 [package.dependencies]
 jsonschema = ">=4.19.1,<5.0.0"
 jsonschema-specifications = ">=2024.10.1"
+pydantic = ">=2.0.0,<3.0.0"
+pydantic-settings = ">=2.0.0,<3.0.0"
 referencing = ">=0.37.0,<0.38.0"
 rfc3339-validator = "*"
 
@@ -2320,4 +2322,4 @@ typing-extensions = {version = ">=4.13.2", markers = "python_version < \"3.11\""
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<4.0"
-content-hash = "642c97c37f4534a7a10c2ec5a0f10baeaf2d566e5e6711bb932687b622b5bdf3"
+content-hash = "20a52b195d3ba5ed8bd2f99eb9be70d25ff1d9615a55fac10fdb22e5dbfc8e02"
